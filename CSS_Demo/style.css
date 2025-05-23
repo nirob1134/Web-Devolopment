@@ -1,0 +1,21 @@
+body{
+
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.myclass{
+
+    background-color: aquamarine;
+    color: coral;
+}
+div{
+
+    background-color: wheat;
+    color: coral;
+}
+
+h1{
+
+    color: red;
+}
