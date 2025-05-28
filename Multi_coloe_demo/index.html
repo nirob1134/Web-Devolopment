@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color website</title>
+    <style>
+        :root {
+            --primar-color: rgb(81, 117, 20);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+              font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            background-color: rgb(218, 142, 218);
+            padding: 12px;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 15px;
+            font-weight: bolder;
+            color: white;
+
+        }
+        ul li :first-child{
+            background-color: var(--primar-color);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
